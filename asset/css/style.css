@@ -219,8 +219,13 @@ header i{
         border-radius: 0 0 4px 4px;
         right: 20px;
     }
+    
     .home_titulo {
         font-size: 1.3rem;
+    }
+
+    .portifolio {
+        height: 100%;
     }
 
     .portifolio ul {
@@ -233,5 +238,10 @@ header i{
         width: 250px;
         height: 200px;
     }
+
+    .formacao{
+        height: 100%;
+    }
+    
 }
 
