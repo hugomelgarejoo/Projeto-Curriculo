@@ -16,6 +16,8 @@ function escrevendoLetra(){
     ativaLetra(titulo);
 }
 
+escrevendoLetra()
+
 // Função para Menu
 
 function menu(){
@@ -27,4 +29,6 @@ function menu(){
         
     })
 }
+
+menu()
 
