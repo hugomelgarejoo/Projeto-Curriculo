@@ -271,32 +271,18 @@ footer {
 
 @media screen and (max-width: 576px) {
 
-    header h1 {
-        font-size: 1rem;
-    }
+    header {
+        display: flex;
+        flex-direction: column;
+        
+     }
+     
+     .navbar {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+     }
 
-    header .navbar{
-        display: none;
-    }
-
-    header i {
-        display: block;
-    }
-
-    header .navbar.ativado{
-        position: absolute;
-        background: linear-gradient(rgba(43,42,42, 0.176), rgba(46,46,46,0.724));
-        position: absolute;
-        display: grid;
-        top: 60px;
-        padding: 10px;
-        gap: 25px;
-        font-size: 1.5rem;
-        font-weight: bold;
-        border-radius: 0 0 4px 4px;
-        right: 20px;
-    }
-    
     .home_titulo {
         font-size: 1.3rem;
     }
@@ -327,6 +313,6 @@ footer {
     .formulario form {
         height: 100%
     }
-    
+
 }
 

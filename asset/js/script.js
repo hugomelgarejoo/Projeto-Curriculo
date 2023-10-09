@@ -17,17 +17,3 @@ function escrevendoLetra(){
 }
 
 escrevendoLetra()
-
-// Função para Menu
-
-function menu(){
-    const ativaMenu = document.querySelector('.icone');
-    const navMenu = document.querySelector('header .navbar')
-    
-    ativaMenu.addEventListener('click', ()=> {
-        navMenu.classList.toggle('ativado')
-        
-    })
-}
-
-menu()
